@@ -1,0 +1,65 @@
+table, p{
+    position: relative;
+    top: 180px;
+    margin:0 auto;
+    text-align: center;
+}
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f7f7f7;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+input[type=submit] {
+    background-color: #e70c0c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+
+td a {
+    background-color: #e70c0c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+a#editdel:hover{
+    background-color: #45a049;
+}
+a.addservice{
+    top:100px;
+}
+
+
+.review-rating {
+    margin-top: 10px;
+    /* add some space between the review and rating */
+    color: #F9A51A;
+    /* set the color of the star icons */
+}
+

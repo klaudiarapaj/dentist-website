@@ -1,0 +1,49 @@
+
+        /* Form styles */
+        form {
+            position:relative;
+            width: 500px;
+            top:170px;
+            margin: 0 auto;
+        }
+        /* Input field styles */
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+        /* Error message styles */
+        .error {
+            padding: 4px;
+            border: 1px solid red;
+            color: red;
+            margin-bottom: 10px;
+        }
+        /* Submit button styles */
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* Change background color on hover */
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        a#back{
+            position:relative;
+           display:flex;
+           justify-content: space-evenly;
+            margin: 0 auto;
+            top:180px;
+
+        }
+        
